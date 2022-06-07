@@ -7,7 +7,8 @@ public class CalcImc {
   
    public static void main(String[] args) {
       
-       imc = peso / (altura * altura);
+       multAltura = Calculadora.multiplicacao(altura, altura);  
+       imc = peso / multAltura;
       
       System.out.println(imc);
    }

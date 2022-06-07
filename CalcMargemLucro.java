@@ -6,6 +6,7 @@ public class CalcMargemLucro{
     private double custos = 50;
 
     public static void main(String[] args) {
+        
 		lucro = receitaTotal - custos;
 		margem = Calculadora.divisao (lucro, receitaTotal);
 		lucroTotal = margem * 100;
