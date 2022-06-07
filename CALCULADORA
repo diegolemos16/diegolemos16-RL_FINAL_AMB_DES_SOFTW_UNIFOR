@@ -14,7 +14,8 @@ public class Calculadora {
 	public void exponencial() {
 	}
 
-	public void raizQuadrada() {
+	public double raizQuadrada(double numeroA) {
+		return sqrt(numeroA);
 	}
 
 	public void Teto() {
