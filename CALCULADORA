@@ -11,11 +11,11 @@ public class Calculadora {
 	public void divisao() {
 	}
 
-	public void exponencial() {
+	public double exponencial(double numeroA, double numeroB) {
+		return pow(numeroA, numeroB);
 	}
 
-	public double raizQuadrada(double numeroA) {
-		return sqrt(numeroA);
+	public double void () {
 	}
 
 	public void Teto() {
