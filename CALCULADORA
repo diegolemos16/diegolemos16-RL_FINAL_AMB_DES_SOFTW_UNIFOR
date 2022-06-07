@@ -16,8 +16,7 @@ public class Calculadora {
 	}
 
 	public void Teto() {
-		teste
-	}
+		}
 
 	public void Piso() {
 	}
