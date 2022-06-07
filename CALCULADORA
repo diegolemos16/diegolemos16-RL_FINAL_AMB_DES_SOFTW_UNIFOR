@@ -1,8 +1,10 @@
 public class Calculadora {
-	public void soma() {
+	public void soma(double numeroA, double nmeroB) {
+		return numeroA + numeroB;
 	}
 
-	public void subtracao() {	
+	public void subtracao(double numeroA, double nmeroB) {
+		return numeroA - numeroB;	
 	}
 
 	public void multiplicacao() {
