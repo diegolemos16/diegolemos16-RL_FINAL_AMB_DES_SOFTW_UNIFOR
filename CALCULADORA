@@ -1,3 +1,5 @@
+import Java.lang.Math;
+
 public class Calculadora {
 	public void soma() {
 	}
@@ -17,9 +19,11 @@ public class Calculadora {
 	public void raizQuadrada() {
 	}
 
-	public void Teto() {
+	public void Teto(double numeroA) {
+		return Math.ceil(numeroA)
 	}
 
-	public void Piso() {
+	public void Piso(double numeroA) {
+		return Math.floor(numeroA)
 	}
 }
